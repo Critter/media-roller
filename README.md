@@ -18,10 +18,7 @@ Pull the repo then run
 
 With Docker: `ronnieroller/media-roller:latest`.
 See https://hub.docker.com/repository/docker/ronnieroller/media-roller
-The files will be saved to the /download directory which you can mount as needed.
-
-
-With Unraid: TODO: This works with Unraid, I'm working on a template and will publish it soon.
+The files are saved to the /download directory which you can mount as needed.
 
 # API
 To download a video directly, use the API endpoint:
@@ -35,4 +32,11 @@ After you you have you server up, install this shortcut. Update the endpoint to 
 
 https://www.icloud.com/shortcuts/2b9765fb5bf24509a4e83bc76c5c7409
 
+# Unraid
+media-roller is available in Unraid and can be found on the "Apps" tab by searching its name.
 
+# Open Issues, missing features
+* Conversions are slow, need to be sped up
+* Needs to support auth
+* Needs a better way to track downloaded media and manage it
+* Add ablity to prefer certain quality or format
